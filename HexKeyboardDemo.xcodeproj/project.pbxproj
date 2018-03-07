@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB995B9620500DE400D82292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB995B9520500DE400D82292 /* AppDelegate.swift */; };
+		AB995B9820500DE400D82292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB995B9720500DE400D82292 /* ViewController.swift */; };
+		AB995B9B20500DE400D82292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB995B9920500DE400D82292 /* Main.storyboard */; };
+		AB995B9D20500DE400D82292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB995B9C20500DE400D82292 /* Assets.xcassets */; };
+		AB995BA020500DE400D82292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB995B9E20500DE400D82292 /* LaunchScreen.storyboard */; };
+		AB995BAB20500DE500D82292 /* HexKeyboardDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB995BAA20500DE500D82292 /* HexKeyboardDemoTests.swift */; };
+		AB995BB620500DE500D82292 /* HexKeyboardDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB995BB520500DE500D82292 /* HexKeyboardDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB995BA720500DE500D82292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB995B8A20500DE400D82292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB995B9120500DE400D82292;
+			remoteInfo = HexKeyboardDemo;
+		};
+		AB995BB220500DE500D82292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB995B8A20500DE400D82292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB995B9120500DE400D82292;
+			remoteInfo = HexKeyboardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB995B9220500DE400D82292 /* HexKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB995B9520500DE400D82292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB995B9720500DE400D82292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB995B9A20500DE400D82292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB995B9C20500DE400D82292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB995B9F20500DE400D82292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB995BA120500DE400D82292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB995BA620500DE500D82292 /* HexKeyboardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexKeyboardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB995BAA20500DE500D82292 /* HexKeyboardDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexKeyboardDemoTests.swift; sourceTree = "<group>"; };
+		AB995BAC20500DE500D82292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB995BB120500DE500D82292 /* HexKeyboardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexKeyboardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB995BB520500DE500D82292 /* HexKeyboardDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexKeyboardDemoUITests.swift; sourceTree = "<group>"; };
+		AB995BB720500DE500D82292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB995B8F20500DE400D82292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB995BA320500DE500D82292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB995BAE20500DE500D82292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB995B8920500DE400D82292 = {
+			isa = PBXGroup;
+			children = (
+				AB995B9420500DE400D82292 /* HexKeyboardDemo */,
+				AB995BA920500DE500D82292 /* HexKeyboardDemoTests */,
+				AB995BB420500DE500D82292 /* HexKeyboardDemoUITests */,
+				AB995B9320500DE400D82292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB995B9320500DE400D82292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB995B9220500DE400D82292 /* HexKeyboardDemo.app */,
+				AB995BA620500DE500D82292 /* HexKeyboardDemoTests.xctest */,
+				AB995BB120500DE500D82292 /* HexKeyboardDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB995B9420500DE400D82292 /* HexKeyboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB995B9520500DE400D82292 /* AppDelegate.swift */,
+				AB995B9720500DE400D82292 /* ViewController.swift */,
+				AB995B9920500DE400D82292 /* Main.storyboard */,
+				AB995B9C20500DE400D82292 /* Assets.xcassets */,
+				AB995B9E20500DE400D82292 /* LaunchScreen.storyboard */,
+				AB995BA120500DE400D82292 /* Info.plist */,
+			);
+			path = HexKeyboardDemo;
+			sourceTree = "<group>";
+		};
+		AB995BA920500DE500D82292 /* HexKeyboardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB995BAA20500DE500D82292 /* HexKeyboardDemoTests.swift */,
+				AB995BAC20500DE500D82292 /* Info.plist */,
+			);
+			path = HexKeyboardDemoTests;
+			sourceTree = "<group>";
+		};
+		AB995BB420500DE500D82292 /* HexKeyboardDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB995BB520500DE500D82292 /* HexKeyboardDemoUITests.swift */,
+				AB995BB720500DE500D82292 /* Info.plist */,
+			);
+			path = HexKeyboardDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB995B9120500DE400D82292 /* HexKeyboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB995BBA20500DE500D82292 /* Build configuration list for PBXNativeTarget "HexKeyboardDemo" */;
+			buildPhases = (
+				AB995B8E20500DE400D82292 /* Sources */,
+				AB995B8F20500DE400D82292 /* Frameworks */,
+				AB995B9020500DE400D82292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HexKeyboardDemo;
+			productName = HexKeyboardDemo;
+			productReference = AB995B9220500DE400D82292 /* HexKeyboardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB995BA520500DE500D82292 /* HexKeyboardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB995BBD20500DE500D82292 /* Build configuration list for PBXNativeTarget "HexKeyboardDemoTests" */;
+			buildPhases = (
+				AB995BA220500DE500D82292 /* Sources */,
+				AB995BA320500DE500D82292 /* Frameworks */,
+				AB995BA420500DE500D82292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB995BA820500DE500D82292 /* PBXTargetDependency */,
+			);
+			name = HexKeyboardDemoTests;
+			productName = HexKeyboardDemoTests;
+			productReference = AB995BA620500DE500D82292 /* HexKeyboardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB995BB020500DE500D82292 /* HexKeyboardDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB995BC020500DE500D82292 /* Build configuration list for PBXNativeTarget "HexKeyboardDemoUITests" */;
+			buildPhases = (
+				AB995BAD20500DE500D82292 /* Sources */,
+				AB995BAE20500DE500D82292 /* Frameworks */,
+				AB995BAF20500DE500D82292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB995BB320500DE500D82292 /* PBXTargetDependency */,
+			);
+			name = HexKeyboardDemoUITests;
+			productName = HexKeyboardDemoUITests;
+			productReference = AB995BB120500DE500D82292 /* HexKeyboardDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB995B8A20500DE400D82292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Varun Naharia";
+				TargetAttributes = {
+					AB995B9120500DE400D82292 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AB995BA520500DE500D82292 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB995B9120500DE400D82292;
+					};
+					AB995BB020500DE500D82292 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB995B9120500DE400D82292;
+					};
+				};
+			};
+			buildConfigurationList = AB995B8D20500DE400D82292 /* Build configuration list for PBXProject "HexKeyboardDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB995B8920500DE400D82292;
+			productRefGroup = AB995B9320500DE400D82292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB995B9120500DE400D82292 /* HexKeyboardDemo */,
+				AB995BA520500DE500D82292 /* HexKeyboardDemoTests */,
+				AB995BB020500DE500D82292 /* HexKeyboardDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB995B9020500DE400D82292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB995BA020500DE400D82292 /* LaunchScreen.storyboard in Resources */,
+				AB995B9D20500DE400D82292 /* Assets.xcassets in Resources */,
+				AB995B9B20500DE400D82292 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB995BA420500DE500D82292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB995BAF20500DE500D82292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB995B8E20500DE400D82292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB995B9820500DE400D82292 /* ViewController.swift in Sources */,
+				AB995B9620500DE400D82292 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB995BA220500DE500D82292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB995BAB20500DE500D82292 /* HexKeyboardDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB995BAD20500DE500D82292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB995BB620500DE500D82292 /* HexKeyboardDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB995BA820500DE500D82292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB995B9120500DE400D82292 /* HexKeyboardDemo */;
+			targetProxy = AB995BA720500DE500D82292 /* PBXContainerItemProxy */;
+		};
+		AB995BB320500DE500D82292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB995B9120500DE400D82292 /* HexKeyboardDemo */;
+			targetProxy = AB995BB220500DE500D82292 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB995B9920500DE400D82292 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB995B9A20500DE400D82292 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB995B9E20500DE400D82292 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB995B9F20500DE400D82292 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB995BB820500DE500D82292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB995BB920500DE500D82292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB995BBB20500DE500D82292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HexKeyboardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.HexKeyboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB995BBC20500DE500D82292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HexKeyboardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.HexKeyboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB995BBE20500DE500D82292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HexKeyboardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.HexKeyboardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexKeyboardDemo.app/HexKeyboardDemo";
+			};
+			name = Debug;
+		};
+		AB995BBF20500DE500D82292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HexKeyboardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.HexKeyboardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexKeyboardDemo.app/HexKeyboardDemo";
+			};
+			name = Release;
+		};
+		AB995BC120500DE500D82292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HexKeyboardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.HexKeyboardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HexKeyboardDemo;
+			};
+			name = Debug;
+		};
+		AB995BC220500DE500D82292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HexKeyboardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.varun.HexKeyboardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HexKeyboardDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB995B8D20500DE400D82292 /* Build configuration list for PBXProject "HexKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB995BB820500DE500D82292 /* Debug */,
+				AB995BB920500DE500D82292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB995BBA20500DE500D82292 /* Build configuration list for PBXNativeTarget "HexKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB995BBB20500DE500D82292 /* Debug */,
+				AB995BBC20500DE500D82292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB995BBD20500DE500D82292 /* Build configuration list for PBXNativeTarget "HexKeyboardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB995BBE20500DE500D82292 /* Debug */,
+				AB995BBF20500DE500D82292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB995BC020500DE500D82292 /* Build configuration list for PBXNativeTarget "HexKeyboardDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB995BC120500DE500D82292 /* Debug */,
+				AB995BC220500DE500D82292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB995B8A20500DE400D82292 /* Project object */;
+}

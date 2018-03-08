@@ -99,7 +99,7 @@ class VNHexKeyboardView: UIView {
     func loadViewFromNib() -> UIView {
         
         let bundle = Bundle(for: type(of: self))
-        let nib = UINib(nibName: "HexKeyboardView", bundle: bundle)
+        let nib = UINib(nibName: "VNHexKeyboardView", bundle: bundle)
         let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
         
         return view

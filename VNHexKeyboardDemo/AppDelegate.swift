@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  HexKeyboardDemo
+//  VNHexKeyboardDemo
 //
 //  Created by Varun Naharia on 07/03/18.
 //  Copyright © 2018 Varun Naharia. All rights reserved.

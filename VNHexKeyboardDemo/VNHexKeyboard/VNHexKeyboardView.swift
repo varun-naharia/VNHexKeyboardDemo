@@ -1,6 +1,6 @@
 //
-//  HexKeyboardView.swift
-//  HexKeyboardDemo
+//  VNHexKeyboardView.swift
+//  VNHexKeyboardDemo
 //
 //  Created by Varun Naharia on 07/03/18.
 //  Copyright © 2018 Varun Naharia. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HexKeyboardView: UIView {
+class VNHexKeyboardView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.

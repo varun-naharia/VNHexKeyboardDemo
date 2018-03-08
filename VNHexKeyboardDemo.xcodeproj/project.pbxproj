@@ -14,8 +14,8 @@
 		AB995BA020500DE400D82292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB995B9E20500DE400D82292 /* LaunchScreen.storyboard */; };
 		AB995BAB20500DE500D82292 /* HexKeyboardDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB995BAA20500DE500D82292 /* HexKeyboardDemoTests.swift */; };
 		AB995BB620500DE500D82292 /* HexKeyboardDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB995BB520500DE500D82292 /* HexKeyboardDemoUITests.swift */; };
-		AB995BC520500EAA00D82292 /* HexKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB995BC420500EAA00D82292 /* HexKeyboardView.swift */; };
-		AB995BC720500EB500D82292 /* HexKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB995BC620500EB500D82292 /* HexKeyboardView.xib */; };
+		AB995BC520500EAA00D82292 /* VNHexKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB995BC420500EAA00D82292 /* VNHexKeyboardView.swift */; };
+		AB995BC720500EB500D82292 /* VNHexKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB995BC620500EB500D82292 /* VNHexKeyboardView.xib */; };
 		ABA6FEFA20513A3E00D02DCA /* backspace.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA6FEF920513A3E00D02DCA /* backspace.png */; };
 /* End PBXBuildFile section */
 
@@ -37,21 +37,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AB995B9220500DE400D82292 /* HexKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB995B9220500DE400D82292 /* VNHexKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNHexKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB995B9520500DE400D82292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB995B9720500DE400D82292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB995B9A20500DE400D82292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB995B9C20500DE400D82292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB995B9F20500DE400D82292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB995BA120500DE400D82292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB995BA620500DE500D82292 /* HexKeyboardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexKeyboardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB995BA620500DE500D82292 /* VNHexKeyboardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VNHexKeyboardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB995BAA20500DE500D82292 /* HexKeyboardDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexKeyboardDemoTests.swift; sourceTree = "<group>"; };
 		AB995BAC20500DE500D82292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB995BB120500DE500D82292 /* HexKeyboardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexKeyboardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB995BB120500DE500D82292 /* VNHexKeyboardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VNHexKeyboardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB995BB520500DE500D82292 /* HexKeyboardDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexKeyboardDemoUITests.swift; sourceTree = "<group>"; };
 		AB995BB720500DE500D82292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB995BC420500EAA00D82292 /* HexKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexKeyboardView.swift; sourceTree = "<group>"; };
-		AB995BC620500EB500D82292 /* HexKeyboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HexKeyboardView.xib; sourceTree = "<group>"; };
+		AB995BC420500EAA00D82292 /* VNHexKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNHexKeyboardView.swift; sourceTree = "<group>"; };
+		AB995BC620500EB500D82292 /* VNHexKeyboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VNHexKeyboardView.xib; sourceTree = "<group>"; };
 		ABA6FEF920513A3E00D02DCA /* backspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspace.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,9 +83,9 @@
 		AB995B8920500DE400D82292 = {
 			isa = PBXGroup;
 			children = (
-				AB995B9420500DE400D82292 /* HexKeyboardDemo */,
-				AB995BA920500DE500D82292 /* HexKeyboardDemoTests */,
-				AB995BB420500DE500D82292 /* HexKeyboardDemoUITests */,
+				AB995B9420500DE400D82292 /* VNHexKeyboardDemo */,
+				AB995BA920500DE500D82292 /* VNHexKeyboardDemoTests */,
+				AB995BB420500DE500D82292 /* VNHexKeyboardDemoUITests */,
 				AB995B9320500DE400D82292 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,17 +93,17 @@
 		AB995B9320500DE400D82292 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB995B9220500DE400D82292 /* HexKeyboardDemo.app */,
-				AB995BA620500DE500D82292 /* HexKeyboardDemoTests.xctest */,
-				AB995BB120500DE500D82292 /* HexKeyboardDemoUITests.xctest */,
+				AB995B9220500DE400D82292 /* VNHexKeyboardDemo.app */,
+				AB995BA620500DE500D82292 /* VNHexKeyboardDemoTests.xctest */,
+				AB995BB120500DE500D82292 /* VNHexKeyboardDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB995B9420500DE400D82292 /* HexKeyboardDemo */ = {
+		AB995B9420500DE400D82292 /* VNHexKeyboardDemo */ = {
 			isa = PBXGroup;
 			children = (
-				AB995BC320500E6E00D82292 /* HexKeyboard */,
+				AB995BC320500E6E00D82292 /* VNHexKeyboard */,
 				AB995B9520500DE400D82292 /* AppDelegate.swift */,
 				AB995B9720500DE400D82292 /* ViewController.swift */,
 				AB995B9920500DE400D82292 /* Main.storyboard */,
@@ -111,43 +111,43 @@
 				AB995B9E20500DE400D82292 /* LaunchScreen.storyboard */,
 				AB995BA120500DE400D82292 /* Info.plist */,
 			);
-			path = HexKeyboardDemo;
+			path = VNHexKeyboardDemo;
 			sourceTree = "<group>";
 		};
-		AB995BA920500DE500D82292 /* HexKeyboardDemoTests */ = {
+		AB995BA920500DE500D82292 /* VNHexKeyboardDemoTests */ = {
 			isa = PBXGroup;
 			children = (
 				AB995BAA20500DE500D82292 /* HexKeyboardDemoTests.swift */,
 				AB995BAC20500DE500D82292 /* Info.plist */,
 			);
-			path = HexKeyboardDemoTests;
+			path = VNHexKeyboardDemoTests;
 			sourceTree = "<group>";
 		};
-		AB995BB420500DE500D82292 /* HexKeyboardDemoUITests */ = {
+		AB995BB420500DE500D82292 /* VNHexKeyboardDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
 				AB995BB520500DE500D82292 /* HexKeyboardDemoUITests.swift */,
 				AB995BB720500DE500D82292 /* Info.plist */,
 			);
-			path = HexKeyboardDemoUITests;
+			path = VNHexKeyboardDemoUITests;
 			sourceTree = "<group>";
 		};
-		AB995BC320500E6E00D82292 /* HexKeyboard */ = {
+		AB995BC320500E6E00D82292 /* VNHexKeyboard */ = {
 			isa = PBXGroup;
 			children = (
 				ABA6FEF920513A3E00D02DCA /* backspace.png */,
-				AB995BC420500EAA00D82292 /* HexKeyboardView.swift */,
-				AB995BC620500EB500D82292 /* HexKeyboardView.xib */,
+				AB995BC420500EAA00D82292 /* VNHexKeyboardView.swift */,
+				AB995BC620500EB500D82292 /* VNHexKeyboardView.xib */,
 			);
-			path = HexKeyboard;
+			path = VNHexKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB995B9120500DE400D82292 /* HexKeyboardDemo */ = {
+		AB995B9120500DE400D82292 /* VNHexKeyboardDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB995BBA20500DE500D82292 /* Build configuration list for PBXNativeTarget "HexKeyboardDemo" */;
+			buildConfigurationList = AB995BBA20500DE500D82292 /* Build configuration list for PBXNativeTarget "VNHexKeyboardDemo" */;
 			buildPhases = (
 				AB995B8E20500DE400D82292 /* Sources */,
 				AB995B8F20500DE400D82292 /* Frameworks */,
@@ -157,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = HexKeyboardDemo;
+			name = VNHexKeyboardDemo;
 			productName = HexKeyboardDemo;
-			productReference = AB995B9220500DE400D82292 /* HexKeyboardDemo.app */;
+			productReference = AB995B9220500DE400D82292 /* VNHexKeyboardDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AB995BA520500DE500D82292 /* HexKeyboardDemoTests */ = {
+		AB995BA520500DE500D82292 /* VNHexKeyboardDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB995BBD20500DE500D82292 /* Build configuration list for PBXNativeTarget "HexKeyboardDemoTests" */;
+			buildConfigurationList = AB995BBD20500DE500D82292 /* Build configuration list for PBXNativeTarget "VNHexKeyboardDemoTests" */;
 			buildPhases = (
 				AB995BA220500DE500D82292 /* Sources */,
 				AB995BA320500DE500D82292 /* Frameworks */,
@@ -175,14 +175,14 @@
 			dependencies = (
 				AB995BA820500DE500D82292 /* PBXTargetDependency */,
 			);
-			name = HexKeyboardDemoTests;
+			name = VNHexKeyboardDemoTests;
 			productName = HexKeyboardDemoTests;
-			productReference = AB995BA620500DE500D82292 /* HexKeyboardDemoTests.xctest */;
+			productReference = AB995BA620500DE500D82292 /* VNHexKeyboardDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AB995BB020500DE500D82292 /* HexKeyboardDemoUITests */ = {
+		AB995BB020500DE500D82292 /* VNHexKeyboardDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB995BC020500DE500D82292 /* Build configuration list for PBXNativeTarget "HexKeyboardDemoUITests" */;
+			buildConfigurationList = AB995BC020500DE500D82292 /* Build configuration list for PBXNativeTarget "VNHexKeyboardDemoUITests" */;
 			buildPhases = (
 				AB995BAD20500DE500D82292 /* Sources */,
 				AB995BAE20500DE500D82292 /* Frameworks */,
@@ -193,9 +193,9 @@
 			dependencies = (
 				AB995BB320500DE500D82292 /* PBXTargetDependency */,
 			);
-			name = HexKeyboardDemoUITests;
+			name = VNHexKeyboardDemoUITests;
 			productName = HexKeyboardDemoUITests;
-			productReference = AB995BB120500DE500D82292 /* HexKeyboardDemoUITests.xctest */;
+			productReference = AB995BB120500DE500D82292 /* VNHexKeyboardDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB995B8D20500DE400D82292 /* Build configuration list for PBXProject "HexKeyboardDemo" */;
+			buildConfigurationList = AB995B8D20500DE400D82292 /* Build configuration list for PBXProject "VNHexKeyboardDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -237,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB995B9120500DE400D82292 /* HexKeyboardDemo */,
-				AB995BA520500DE500D82292 /* HexKeyboardDemoTests */,
-				AB995BB020500DE500D82292 /* HexKeyboardDemoUITests */,
+				AB995B9120500DE400D82292 /* VNHexKeyboardDemo */,
+				AB995BA520500DE500D82292 /* VNHexKeyboardDemoTests */,
+				AB995BB020500DE500D82292 /* VNHexKeyboardDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB995BA020500DE400D82292 /* LaunchScreen.storyboard in Resources */,
-				AB995BC720500EB500D82292 /* HexKeyboardView.xib in Resources */,
+				AB995BC720500EB500D82292 /* VNHexKeyboardView.xib in Resources */,
 				AB995B9D20500DE400D82292 /* Assets.xcassets in Resources */,
 				ABA6FEFA20513A3E00D02DCA /* backspace.png in Resources */,
 				AB995B9B20500DE400D82292 /* Main.storyboard in Resources */,
@@ -278,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB995BC520500EAA00D82292 /* HexKeyboardView.swift in Sources */,
+				AB995BC520500EAA00D82292 /* VNHexKeyboardView.swift in Sources */,
 				AB995B9820500DE400D82292 /* ViewController.swift in Sources */,
 				AB995B9620500DE400D82292 /* AppDelegate.swift in Sources */,
 			);
@@ -305,12 +305,12 @@
 /* Begin PBXTargetDependency section */
 		AB995BA820500DE500D82292 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB995B9120500DE400D82292 /* HexKeyboardDemo */;
+			target = AB995B9120500DE400D82292 /* VNHexKeyboardDemo */;
 			targetProxy = AB995BA720500DE500D82292 /* PBXContainerItemProxy */;
 		};
 		AB995BB320500DE500D82292 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB995B9120500DE400D82292 /* HexKeyboardDemo */;
+			target = AB995B9120500DE400D82292 /* VNHexKeyboardDemo */;
 			targetProxy = AB995BB220500DE500D82292 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -488,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexKeyboardDemo.app/HexKeyboardDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VNHexKeyboardDemo.app/VNHexKeyboardDemo";
 			};
 			name = Debug;
 		};
@@ -504,7 +504,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexKeyboardDemo.app/HexKeyboardDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VNHexKeyboardDemo.app/VNHexKeyboardDemo";
 			};
 			name = Release;
 		};
@@ -541,7 +541,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB995B8D20500DE400D82292 /* Build configuration list for PBXProject "HexKeyboardDemo" */ = {
+		AB995B8D20500DE400D82292 /* Build configuration list for PBXProject "VNHexKeyboardDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB995BB820500DE500D82292 /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB995BBA20500DE500D82292 /* Build configuration list for PBXNativeTarget "HexKeyboardDemo" */ = {
+		AB995BBA20500DE500D82292 /* Build configuration list for PBXNativeTarget "VNHexKeyboardDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB995BBB20500DE500D82292 /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB995BBD20500DE500D82292 /* Build configuration list for PBXNativeTarget "HexKeyboardDemoTests" */ = {
+		AB995BBD20500DE500D82292 /* Build configuration list for PBXNativeTarget "VNHexKeyboardDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB995BBE20500DE500D82292 /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB995BC020500DE500D82292 /* Build configuration list for PBXNativeTarget "HexKeyboardDemoUITests" */ = {
+		AB995BC020500DE500D82292 /* Build configuration list for PBXNativeTarget "VNHexKeyboardDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB995BC120500DE500D82292 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  HexKeyboardDemo
+//  VNHexKeyboardDemo
 //
 //  Created by Varun Naharia on 07/03/18.
 //  Copyright © 2018 Varun Naharia. All rights reserved.
@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var txtInput: UITextField!
-    @IBOutlet var keyboard: HexKeyboardView!
+    @IBOutlet var keyboard: VNHexKeyboardView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -14,6 +14,8 @@
 		AB995BA020500DE400D82292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB995B9E20500DE400D82292 /* LaunchScreen.storyboard */; };
 		AB995BAB20500DE500D82292 /* HexKeyboardDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB995BAA20500DE500D82292 /* HexKeyboardDemoTests.swift */; };
 		AB995BB620500DE500D82292 /* HexKeyboardDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB995BB520500DE500D82292 /* HexKeyboardDemoUITests.swift */; };
+		AB995BC520500EAA00D82292 /* HexKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB995BC420500EAA00D82292 /* HexKeyboardView.swift */; };
+		AB995BC720500EB500D82292 /* HexKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB995BC620500EB500D82292 /* HexKeyboardView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AB995BB120500DE500D82292 /* HexKeyboardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexKeyboardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB995BB520500DE500D82292 /* HexKeyboardDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexKeyboardDemoUITests.swift; sourceTree = "<group>"; };
 		AB995BB720500DE500D82292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB995BC420500EAA00D82292 /* HexKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexKeyboardView.swift; sourceTree = "<group>"; };
+		AB995BC620500EB500D82292 /* HexKeyboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HexKeyboardView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		AB995B9420500DE400D82292 /* HexKeyboardDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AB995BC320500E6E00D82292 /* HexKeyboard */,
 				AB995B9520500DE400D82292 /* AppDelegate.swift */,
 				AB995B9720500DE400D82292 /* ViewController.swift */,
 				AB995B9920500DE400D82292 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				AB995BB720500DE500D82292 /* Info.plist */,
 			);
 			path = HexKeyboardDemoUITests;
+			sourceTree = "<group>";
+		};
+		AB995BC320500E6E00D82292 /* HexKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AB995BC420500EAA00D82292 /* HexKeyboardView.swift */,
+				AB995BC620500EB500D82292 /* HexKeyboardView.xib */,
+			);
+			path = HexKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB995BA020500DE400D82292 /* LaunchScreen.storyboard in Resources */,
+				AB995BC720500EB500D82292 /* HexKeyboardView.xib in Resources */,
 				AB995B9D20500DE400D82292 /* Assets.xcassets in Resources */,
 				AB995B9B20500DE400D82292 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB995BC520500EAA00D82292 /* HexKeyboardView.swift in Sources */,
 				AB995B9820500DE400D82292 /* ViewController.swift in Sources */,
 				AB995B9620500DE400D82292 /* AppDelegate.swift in Sources */,
 			);
@@ -425,11 +441,14 @@
 		AB995BBB20500DE500D82292 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NRQKWPD8YA;
 				INFOPLIST_FILE = HexKeyboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.varun.HexKeyboardDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varuns.HexKeyboardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -439,11 +458,14 @@
 		AB995BBC20500DE500D82292 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NRQKWPD8YA;
 				INFOPLIST_FILE = HexKeyboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.varun.HexKeyboardDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varuns.HexKeyboardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

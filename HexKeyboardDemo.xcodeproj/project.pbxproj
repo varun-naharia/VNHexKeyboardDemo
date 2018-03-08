@@ -16,6 +16,7 @@
 		AB995BB620500DE500D82292 /* HexKeyboardDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB995BB520500DE500D82292 /* HexKeyboardDemoUITests.swift */; };
 		AB995BC520500EAA00D82292 /* HexKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB995BC420500EAA00D82292 /* HexKeyboardView.swift */; };
 		AB995BC720500EB500D82292 /* HexKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB995BC620500EB500D82292 /* HexKeyboardView.xib */; };
+		ABA6FEFA20513A3E00D02DCA /* backspace.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA6FEF920513A3E00D02DCA /* backspace.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AB995BB720500DE500D82292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB995BC420500EAA00D82292 /* HexKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexKeyboardView.swift; sourceTree = "<group>"; };
 		AB995BC620500EB500D82292 /* HexKeyboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HexKeyboardView.xib; sourceTree = "<group>"; };
+		ABA6FEF920513A3E00D02DCA /* backspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspace.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		AB995BC320500E6E00D82292 /* HexKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				ABA6FEF920513A3E00D02DCA /* backspace.png */,
 				AB995BC420500EAA00D82292 /* HexKeyboardView.swift */,
 				AB995BC620500EB500D82292 /* HexKeyboardView.xib */,
 			);
@@ -249,6 +252,7 @@
 				AB995BA020500DE400D82292 /* LaunchScreen.storyboard in Resources */,
 				AB995BC720500EB500D82292 /* HexKeyboardView.xib in Resources */,
 				AB995B9D20500DE400D82292 /* Assets.xcassets in Resources */,
+				ABA6FEFA20513A3E00D02DCA /* backspace.png in Resources */,
 				AB995B9B20500DE400D82292 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

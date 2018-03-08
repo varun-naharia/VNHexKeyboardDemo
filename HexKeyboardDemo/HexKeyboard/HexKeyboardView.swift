@@ -18,6 +18,24 @@ class HexKeyboardView: UIView {
     }
     */
     var view: UIView!
+    @IBOutlet weak var btnZero: UIButton!
+    @IBOutlet weak var btnOne: UIButton!
+    @IBOutlet weak var btnTwo: UIButton!
+    @IBOutlet weak var btnThree: UIButton!
+    @IBOutlet weak var btnFour: UIButton!
+    @IBOutlet weak var btnFive: UIButton!
+    @IBOutlet weak var btnSix: UIButton!
+    @IBOutlet weak var btnSeven: UIButton!
+    @IBOutlet weak var btnEight: UIButton!
+    @IBOutlet weak var btnNine: UIButton!
+    @IBOutlet weak var btnA: UIButton!
+    @IBOutlet weak var btnB: UIButton!
+    @IBOutlet weak var btnC: UIButton!
+    @IBOutlet weak var btnD: UIButton!
+    @IBOutlet weak var btnE: UIButton!
+    @IBOutlet weak var btnF: UIButton!
+    @IBOutlet weak var btnBack: UIButton!
+    @IBOutlet weak var btnReturn: UIButton!
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.setUpView()
@@ -38,6 +56,7 @@ class HexKeyboardView: UIView {
         super.prepareForInterfaceBuilder()
         self.view.isOpaque = false
         view.isOpaque = false
+        
         updateView()
     }
     
@@ -46,14 +65,30 @@ class HexKeyboardView: UIView {
     }
     
     func setUpView() {
-        
+        setupKey(button: btnA)
+        setupKey(button: btnB)
+        setupKey(button: btnC)
+        setupKey(button: btnD)
+        setupKey(button: btnE)
+        setupKey(button: btnF)
+        setupKey(button: btnZero)
+        setupKey(button: btnOne)
+        setupKey(button: btnTwo)
+        setupKey(button: btnThree)
+        setupKey(button: btnFour)
+        setupKey(button: btnFive)
+        setupKey(button: btnSix)
+        setupKey(button: btnSeven)
+        setupKey(button: btnEight)
+        setupKey(button: btnNine)
+        setupKey(button: btnBack)
     }
     
     func xibSetup() {
         view = loadViewFromNib()
         // use bounds not frame or it'll be offset
         view.frame = bounds
-        view.backgroundColor = self.backgroundColor
+//        view.backgroundColor = self.backgroundColor
         // Make the view stretch with containing view
         view.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
         // Adding custom subview on top of our view (over any custom drawing > see note below)
@@ -206,6 +241,29 @@ class HexKeyboardView: UIView {
             }
         }
     }
+    
+    @IBAction func backAction(_ sender: UIButton) {
+        if let activeTextField = UIResponder.currentFirst() as? UITextField {
+            activeTextField.deleteBackward()
+        }
+    }
+    
+    @IBAction func returnAction(_ sender: UIButton) {
+        if let activeTextField = UIResponder.currentFirst() as? UITextField {
+            activeTextField.resignFirstResponder()
+        }
+    }
+    
+    func setupKey(button:UIButton) {
+        button.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+        button.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
+        button.layer.shadowOpacity = 1.0
+        button.layer.shadowRadius = 0.0
+        button.layer.masksToBounds = false
+        button.layer.cornerRadius = 4.0
+    }
+    
+    
 }
 
 public extension UIResponder {
